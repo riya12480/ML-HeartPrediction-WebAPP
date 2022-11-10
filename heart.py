@@ -21,7 +21,7 @@ def main():
     
     f1 = st.slider("Age")
     f2 = st.selectbox("Sex  (Male-1 | Female-0)", ("1","0"))
-    f3 = st.selectbox("cp", ("0","1","2"))  
+    f3 = st.selectbox("cp", ("0","1","2","3"))  
     f4 = st.text_input("trestbps")
     f5 = st.text_input("chol")
     f6 = st.text_input("fbs")
